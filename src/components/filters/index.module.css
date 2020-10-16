@@ -1,0 +1,39 @@
+.filter-container {
+  width: 20%;
+  background-color: red;
+}
+
+
+.filter-section {}
+
+.filter-section-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-section-heading>div {
+  border-bottom: 1px solid black;
+  width: 80%;
+  text-align: center;
+}
+
+.filter-section-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-section-item>div {
+  background-color: royalblue;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: calc(30% - 10px);
+  text-align: center;
+}
+
+.filter-section-selected-item{
+  background-color: brown !important;
+}
