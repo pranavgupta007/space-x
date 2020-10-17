@@ -30,9 +30,12 @@ class App extends Component {
     const { launchesData } = this.state;
     return (
       <>
+      <div className="initial-container">
+      <h3 className="title">SpaceX Launch Programs</h3>
         <div className="container-div">
           <Filters getLaunches={this.getLaunches}></Filters>
           <Content launchesData={launchesData}></Content>
+        </div>
         </div>
       </>
     );

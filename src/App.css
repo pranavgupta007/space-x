@@ -1,3 +1,11 @@
 .container-div{
   display: flex;
 }
+
+.title{
+  margin: 0;
+}
+
+.initial-container{
+  background-color: #F5F5F5	;
+}

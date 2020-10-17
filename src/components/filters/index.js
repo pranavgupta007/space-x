@@ -7,15 +7,15 @@ class Filters extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      availablefilters: availablefilters,
+      availablefilters: availablefilters
     };
   }
 
   onFilterClick = (filterkey, filterItem) => {
     const { availablefilters } = this.state;
-    const {getLaunches}=this.props;
+    const { getLaunches } = this.props;
     const newFilters = [...availablefilters];
-    const paramsObj={};
+    const paramsObj = {};
     for (let i in newFilters) {
       for (let j in newFilters[i].filterItems) {
         if (newFilters[i].key === filterkey) {
@@ -25,7 +25,7 @@ class Filters extends Component {
           }
         }
         if (newFilters[i].filterItems[j].isSelected) {
-          paramsObj[newFilters[i].key]=newFilters[i].filterItems[j].value;
+          paramsObj[newFilters[i].key] = newFilters[i].filterItems[j].value;
         }
       }
     }

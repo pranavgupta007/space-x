@@ -1,14 +1,21 @@
 .filter-container {
-  width: 20%;
-  background-color: red;
+  width: 18%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 1%;
 }
 
 
 .filter-section {}
 
+.filter-heading{
+  font-weight: bold;
+  margin-left: 4%;;
+}
 .filter-section-heading {
   display: flex;
   justify-content: center;
+  font-size: 14px;
 }
 
 .filter-section-heading>div {
@@ -23,7 +30,7 @@
 }
 
 .filter-section-item>div {
-  background-color: royalblue;
+  background-color: #93DB70;
   padding: 5px;
   border-radius: 5px;
   margin-left: 10%;
@@ -35,5 +42,5 @@
 }
 
 .filter-section-selected-item{
-  background-color: brown !important;
+  background-color: #308014 !important;
 }
