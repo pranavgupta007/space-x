@@ -50,14 +50,14 @@ export class Item extends Component {
                   <span>
                     <b>Successful Launch: </b>
                     <span className={` ${style["desc-color"]}`}>
-                      {successLaunch.toString()}
+                      {successLaunch?successLaunch.toString():'false'}
                     </span>
                   </span>
                 </div>
                 <div>
                   <span>
                     <b>Successful Landing: </b>
-                    <span className={` ${style["desc-color"]}`}>{launchLanding}</span>
+                    <span className={` ${style["desc-color"]}`}>{launchLanding?launchLanding.toString():'false'}</span>
                   </span>
                 </div>
               </div>

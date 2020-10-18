@@ -15,7 +15,7 @@ class Content extends PureComponent {
                 flightNo:v.flight_number,
                 launchYear: v.launch_year,
                 successLaunch: v.launch_success,
-                launchLanding:v.launch_landing,
+                launchLanding:v.rocket.first_stage.cores[0].land_success,
                 imgURL: v.links.mission_patch_small,
                 missionId:v.mission_id
               }}
