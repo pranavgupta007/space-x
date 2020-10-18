@@ -4,9 +4,14 @@
   margin: 0;
 }
 
-.initial-container{
+.outer-initial-container{
   background-color: #F5F5F5	;
 }
+.initial-container{
+  max-width: 1440px;
+  margin: auto;
+}
+
 
 @media only screen and (max-width:700px){
   .container-div{

@@ -37,8 +37,9 @@ class Filters extends Component {
     const { availablefilters } = this.state;
     return (
       <div className={`${style["filter-container"]}`}>
-        <div className={`${style["filter-heading"]}`}>Filters</div>
+        
         <div className={`${style["filter-content"]}`}>
+          <div className={`${style["filter-heading"]}`}>Filters</div>
           {availablefilters.map((filter) => {
             return (
               <section className={`${style["filter-section"]}`}>

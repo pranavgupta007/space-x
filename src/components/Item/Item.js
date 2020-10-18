@@ -18,7 +18,7 @@ export class Item extends Component {
               <div className={style["img-style"]}>
                 <img src={imgURL} alt="Mission" />
               </div>
-
+<div className={style["outer-data-section"]}>
               <div className={style["data-section"]}>
                 <div
                   className={`${style["img-heading"]} ${style["desc-color"]}`}
@@ -60,7 +60,7 @@ export class Item extends Component {
                     <span className={` ${style["desc-color"]}`}>{launchLanding?launchLanding.toString():'false'}</span>
                   </span>
                 </div>
-              </div>
+              </div></div>
             </div>
          
     );

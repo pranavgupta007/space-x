@@ -2,7 +2,7 @@
 @media only screen and (max-width:700px){
   .filter-container {
     width: 98%;
-    background-color: white;
+    background-color: #F5F5F5;
     border-radius: 5px;
     margin: 1%;
   }
@@ -11,13 +11,17 @@
 @media only screen and (min-width:700px){
   .filter-container {
     width: 18%;
-    background-color: white;
+    background-color: #F5F5F5;
     border-radius: 5px;
     margin: 1%;
   }
 }
 
-.filter-section {}
+.filter-content {
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
 
 .filter-heading{
   font-weight: bold;

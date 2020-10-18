@@ -84,9 +84,14 @@ background: #F5F5F5	;
 max-width: 100%;
 }
 
+.outer-data-section{
+display: flex;
+justify-content: center;
+}
+
 .data-section{
     font-size: 12px;
-    padding-left: 13%;
+    width: 200px;
 }
 
 .img-heading{
