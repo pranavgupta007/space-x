@@ -30,8 +30,8 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 ## Lighthouse score 
-![Alt text](src\Screenshots\OverallScore.png?raw=true "Overall Score")
-![Alt text](src\Screenshots\Performance.png?raw=true "Performance")
-![Alt text](src\Screenshots\Accessibility.png?raw=true "Accessibility")
-![Alt text](src\Screenshots\BestPractices.png?raw=true "Best Practices")
-![Alt text](src\Screenshots\SEO.png?raw=true "Overall Score")
+![Alt text](/src/Screenshots/OverallScore.png?raw=true "Overall Score")
+![Alt text](/src/Screenshots/Performance.png?raw=true "Performance")
+![Alt text](/src/Screenshots/Accessibility.png?raw=true "Accessibility")
+![Alt text](/src/Screenshots/BestPractices.png?raw=true "Best Practices")
+![Alt text](/src/Screenshots/SEO.png?raw=true "Overall Score")
