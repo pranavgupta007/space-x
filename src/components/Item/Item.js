@@ -5,9 +5,12 @@ export class Item extends Component {
   render() {
     const {
       name,
+      flightNo,
       launchYear,
       successLaunch,
+      launchLanding,
       imgURL,
+      missionId
     } = this.props.missionDetails;
     return (
      
@@ -20,18 +23,19 @@ export class Item extends Component {
                 <div
                   className={`${style["img-heading"]} ${style["desc-color"]}`}
                 >
-                  {name}
+                  {name} #{flightNo}
                 </div>
                 <div>
                   <span>
                     <b>Mission Ids</b>
                   </span>
                   <ul className={style["mission-list"]}>
-                    <li>Mission id 1</li>
-                    <li>Mission id 2</li>
-                    <li>Mission id 3</li>
-                    <li>Mission id 4</li>
-                  </ul>
+                    {
+                      missionId.map((value)=>{
+                        return (<li>{value}</li>)
+                      })
+                    }
+                    </ul>
                 </div>
 
                 <div>
@@ -46,14 +50,14 @@ export class Item extends Component {
                   <span>
                     <b>Successful Launch: </b>
                     <span className={` ${style["desc-color"]}`}>
-                      {successLaunch}
+                      {successLaunch.toString()}
                     </span>
                   </span>
                 </div>
                 <div>
                   <span>
                     <b>Successful Landing: </b>
-                    <span className={` ${style["desc-color"]}`}>False</span>
+                    <span className={` ${style["desc-color"]}`}>{launchLanding}</span>
                   </span>
                 </div>
               </div>
